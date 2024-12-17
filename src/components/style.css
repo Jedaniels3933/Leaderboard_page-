@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+:root{
+    --color-dark: #38c292;
+    --color-light: #002233;
+}
+
+#main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--color-light);
+
+}
+
+.board {
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    width: 50%;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    border: 1px solid var(--color-dark);
+    color-scheme: dark;
+}
+
+.board .leaderboard{
+    margin-bottom: 1em;
+}
+
+.board .duration{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.board .duration > button{
+    border: 1px solid var(--color-light);
+    padding: .5em 2em;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.board .duration > button:hover{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.active{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+#profile{
+    text-align: center;
+    padding: 2em;
+    margin-top: 3em;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+
+
+#profile .flex img{
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--color-dark);
+    box-shadow: 0 0 10px rgba(156, 172, 14, 0.1);
+    color-scheme: dark;
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-light);
+}
+
+
+
+
+
+
